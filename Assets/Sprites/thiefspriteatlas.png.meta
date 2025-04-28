@@ -1,0 +1,1632 @@
+fileFormatVersion: 2
+guid: f4134e72192c1a748919ea74c510a133
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: thiefspriteatlas_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 899
+        width: 539
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38301bb41d9d2f746a43ddff3e0c55ad
+      internalID: -33700325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 797
+        width: 44
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9af6f16e05a4c84885315e22f70e0f8
+      internalID: 248201894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_2
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 797
+        width: 44
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca495474ee6d55845b5e1d5571789ff0
+      internalID: 888825732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_3
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 797
+        width: 43
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb71077fea23c64eb8f6cf292992a80
+      internalID: 1117382575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_4
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 797
+        width: 43
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9923b63d5e6e9074983851d7831bd7de
+      internalID: 1219220781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_5
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 798
+        width: 51
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e277fdad3526c234ab9dccac3d54ef32
+      internalID: -568503956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_6
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 797
+        width: 46
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c41e7435e723ef4ca31e116c6548dbb
+      internalID: 1833291218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_7
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 797
+        width: 48
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da95e9cd550e38478ac5e889a68a347
+      internalID: -1929280974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_8
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 689
+        width: 43
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be8cd449bfbd12e4f9d4451eea29c885
+      internalID: 887691377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_9
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 689
+        width: 44
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02905418cd25d74b9a2da3451fda4d4
+      internalID: 663979797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_10
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 689
+        width: 44
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca91a967b819a046822dc1858c949af
+      internalID: -1954843195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_11
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 689
+        width: 44
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ffecb6ebcafd8449823fb37ac6f35a8
+      internalID: 1443192300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_12
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 688
+        width: 43
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5076565b052b7fa4fb159e57872e48f6
+      internalID: 788465282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_13
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 687
+        width: 49
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6837fa8c992ea5147a09c69b9df0a36f
+      internalID: -2123278331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_14
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 552
+        width: 43
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660f9b07fc1a49146982a036befcfce1
+      internalID: 347891284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_15
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 564
+        width: 43
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d05f3a9c7f022649a301ebec7a3f6a5
+      internalID: 1324139767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_16
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 593
+        width: 48
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c52aa55e6083ba4fa723d70edb3ded0
+      internalID: 1093680558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_17
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 570
+        width: 42
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec395a9a96bc3864b8634ab34821cd7d
+      internalID: -1456600004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_18
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 553
+        width: 43
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911f34b400052d445b4c939f9255be19
+      internalID: 1416149389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_19
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 552
+        width: 43
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b1eac3c19ba0dd4291b5598f9b36bd5
+      internalID: 989958409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_20
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 552
+        width: 43
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6423f4929ed36784baf248e685d4bc22
+      internalID: -1075402616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_21
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 430
+        width: 43
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 416345bd2c517504a90123ea3cfcb9dc
+      internalID: 1533934407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_22
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 436
+        width: 58
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63f9cf0224feaf40aa9473e9205f460
+      internalID: -80940182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_23
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 431
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404266cb9a4cf314699e56645d1ca1fe
+      internalID: -466746506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_24
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 431
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e745a9ef1eace742a1eb8a37fb4eca2
+      internalID: -192561655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_25
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 431
+        width: 86
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5638587740dc86744af3127a45663001
+      internalID: 954600277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_26
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 392
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1345126a49ff0d0419c285217c8a22eb
+      internalID: 483026867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_27
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 388
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3cbd6049f817674fbae57fb1ed87e47
+      internalID: -1050861667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_28
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 389
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7871bda5e90e794cab970ee32aee76c
+      internalID: -1526381384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_29
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 391
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f32d9e75bfac3448d89684764370ac
+      internalID: 1788355648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_30
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 391
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5255d46914a0114eadff8a7a493381b
+      internalID: -1133638358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_31
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 382
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e153831fdd8c29c4a896c14995310703
+      internalID: -1652877496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_32
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 376
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038beec53a78a6948ab47a00423a2881
+      internalID: 1184521911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_33
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 296
+        width: 43
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4721fbd8a902a254c822ae473e962f18
+      internalID: -1758119679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_34
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 293
+        width: 43
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf662fe3ec766e4ea9c75c49abf0396
+      internalID: -1682391042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_35
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 293
+        width: 43
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b19f9f1a03bf5b43a972eeda14ee2b9
+      internalID: 1060526447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_36
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 378
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43488c49b339fca4aa582dadfff88d9d
+      internalID: -241622118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_37
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 288
+        width: 45
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79a2fd63e9ad7844a692fd3b07e4b6b
+      internalID: 1960676707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_38
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 287
+        width: 61
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e398256ef367e748ae2065dd40f1b0e
+      internalID: -267742705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_39
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 287
+        width: 56
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b18959b4db2cfd4c9a45dc97fd70af1
+      internalID: 188148590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_40
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 288
+        width: 56
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a0dc5c4b207a6478dc8a6c60c9cdea
+      internalID: -1900284895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_41
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 296
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40403cddaea79ca488da23e51c8aabd7
+      internalID: -420489033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_42
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 302
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911716209d237a04b93fa51bd4be57d3
+      internalID: -331410106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_43
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 296
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6a5f678e013ac4c8f21e7a99b69f63
+      internalID: -1907968307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_44
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 291
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ea37aac9164ae4baea48d403d848ce
+      internalID: 2074856256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_45
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 292
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f04a2ff0c269e4d8509a4fd00007f3
+      internalID: 928473478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_46
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 291
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f108c32d8cf840f40b9ba0c76c8280f1
+      internalID: 1115640613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_47
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 295
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ca247b0bf533e4d8ad3c1b6f19a5f1
+      internalID: 1050851690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_48
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 289
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee853463f5403074b9172201f802a51a
+      internalID: 1932967001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_49
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 174
+        width: 46
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1fb172e3abc3846afc7b5f6cfe7c7f
+      internalID: 8534118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_50
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 176
+        width: 43
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb63316be4bfd74bb137e894548fc59
+      internalID: -1199230644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_51
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 176
+        width: 69
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77c15830b2501d14da8bfc6065d4bb2c
+      internalID: -1483989249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_52
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 175
+        width: 85
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fad53160861096458118a0cb71f60f8
+      internalID: -656005850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_53
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 169
+        width: 84
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc6023b386fb5649ad92cffa149765d
+      internalID: 199193886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_54
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 168
+        width: 95
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8dc03a4242c7eb46a51ece188d248bb
+      internalID: -930585240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_55
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 28
+        width: 44
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dbf59690916e8b43a62513f58df6f31
+      internalID: -546801854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_56
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 30
+        width: 43
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b812ca911e968c7498b385d4d753dcec
+      internalID: -711643794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_57
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 33
+        width: 43
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d60a1e3909e6e65459263939ec148508
+      internalID: -264501922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_58
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 24
+        width: 43
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb9799a5a36aaa0408f107e5b662f656
+      internalID: 648647142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_59
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 28
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d618aac8bf003449901af2f24ec676
+      internalID: -50255746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_60
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 28
+        width: 4
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37871d9404d1e814eb125c6160ca2319
+      internalID: -855101545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_61
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 27
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff8a44ce9cc0db146b8aef4ae5504a81
+      internalID: 1172278186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_62
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 28
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806335f77423a55499bfb7a1d21bf0ce
+      internalID: -1600770785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_63
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 28
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e4ceb64cd36744a8af49e0a245d9f3
+      internalID: 1779964574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_64
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 27
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5b683a4618f3448a93a2d34862e7a5
+      internalID: 568914308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_65
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 27
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28309b368f32e1b45be562bcd2851428
+      internalID: -809430354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_66
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 28
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9bfd366222acc34098bddf38469f8be
+      internalID: 331779453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_67
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 28
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08993bac603fd5049a9d9e000364c8a4
+      internalID: -2097478773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thiefspriteatlas_68
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 28
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64958a26f33acc44ad41b1199381cf9
+      internalID: -627882764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      thiefspriteatlas_0: -33700325
+      thiefspriteatlas_1: 248201894
+      thiefspriteatlas_10: -1954843195
+      thiefspriteatlas_11: 1443192300
+      thiefspriteatlas_12: 788465282
+      thiefspriteatlas_13: -2123278331
+      thiefspriteatlas_14: 347891284
+      thiefspriteatlas_15: 1324139767
+      thiefspriteatlas_16: 1093680558
+      thiefspriteatlas_17: -1456600004
+      thiefspriteatlas_18: 1416149389
+      thiefspriteatlas_19: 989958409
+      thiefspriteatlas_2: 888825732
+      thiefspriteatlas_20: -1075402616
+      thiefspriteatlas_21: 1533934407
+      thiefspriteatlas_22: -80940182
+      thiefspriteatlas_23: -466746506
+      thiefspriteatlas_24: -192561655
+      thiefspriteatlas_25: 954600277
+      thiefspriteatlas_26: 483026867
+      thiefspriteatlas_27: -1050861667
+      thiefspriteatlas_28: -1526381384
+      thiefspriteatlas_29: 1788355648
+      thiefspriteatlas_3: 1117382575
+      thiefspriteatlas_30: -1133638358
+      thiefspriteatlas_31: -1652877496
+      thiefspriteatlas_32: 1184521911
+      thiefspriteatlas_33: -1758119679
+      thiefspriteatlas_34: -1682391042
+      thiefspriteatlas_35: 1060526447
+      thiefspriteatlas_36: -241622118
+      thiefspriteatlas_37: 1960676707
+      thiefspriteatlas_38: -267742705
+      thiefspriteatlas_39: 188148590
+      thiefspriteatlas_4: 1219220781
+      thiefspriteatlas_40: -1900284895
+      thiefspriteatlas_41: -420489033
+      thiefspriteatlas_42: -331410106
+      thiefspriteatlas_43: -1907968307
+      thiefspriteatlas_44: 2074856256
+      thiefspriteatlas_45: 928473478
+      thiefspriteatlas_46: 1115640613
+      thiefspriteatlas_47: 1050851690
+      thiefspriteatlas_48: 1932967001
+      thiefspriteatlas_49: 8534118
+      thiefspriteatlas_5: -568503956
+      thiefspriteatlas_50: -1199230644
+      thiefspriteatlas_51: -1483989249
+      thiefspriteatlas_52: -656005850
+      thiefspriteatlas_53: 199193886
+      thiefspriteatlas_54: -930585240
+      thiefspriteatlas_55: -546801854
+      thiefspriteatlas_56: -711643794
+      thiefspriteatlas_57: -264501922
+      thiefspriteatlas_58: 648647142
+      thiefspriteatlas_59: -50255746
+      thiefspriteatlas_6: 1833291218
+      thiefspriteatlas_60: -855101545
+      thiefspriteatlas_61: 1172278186
+      thiefspriteatlas_62: -1600770785
+      thiefspriteatlas_63: 1779964574
+      thiefspriteatlas_64: 568914308
+      thiefspriteatlas_65: -809430354
+      thiefspriteatlas_66: 331779453
+      thiefspriteatlas_67: -2097478773
+      thiefspriteatlas_68: -627882764
+      thiefspriteatlas_7: -1929280974
+      thiefspriteatlas_8: 887691377
+      thiefspriteatlas_9: 663979797
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
