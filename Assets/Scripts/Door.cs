@@ -1,11 +1,18 @@
+using System;
 using UnityEngine;
 
 public class Door : MonoBehaviour
 {
-    [SerializeField] private Alarm _alarm;
+    public event Action ThiefEntered;
+    public event Action ThiefExited;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        _alarm.Switch();
+        ThiefEntered?.Invoke();
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        ThiefExited?.Invoke();
     }
 }

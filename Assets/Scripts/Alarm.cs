@@ -1,5 +1,5 @@
-using System.Collections;
 using UnityEngine;
+using System.Collections;
 
 [RequireComponent(typeof(AudioSource))]
 [RequireComponent(typeof(Animator))]
@@ -7,52 +7,45 @@ public class Alarm : MonoBehaviour
 {
     private const string IsOn = "IsOn";
     
-    [SerializeField] private float _volumeIncreaseSpeed;
-    [SerializeField] private float _volumeDecreaseSpeed;
-
+    [SerializeField] private float _volumeChangeSpeed = 0.5f;
+    
     private AudioSource _audioSource;
     private Animator _animator;
     private float _maxVolume = 1;
     private float _minVolume = 0;
-    private bool _isRobberingInProgress = false;
+    private Coroutine _volumeCoroutine;
 
     private void Awake()
     {
         _audioSource = GetComponent<AudioSource>();
         _animator = GetComponent<Animator>();
+        _audioSource.volume = _minVolume;
     }
 
-    public void Switch()
+    public void SetAlarm(bool isAlarmTurnedOn)
     {
-        _isRobberingInProgress = !_isRobberingInProgress;
+        if (_volumeCoroutine != null)
+            StopCoroutine(_volumeCoroutine);
 
-        if (_isRobberingInProgress)
-            StartCoroutine(TurnOn());
-        else 
-            StartCoroutine(TurnOff());
+        _volumeCoroutine = StartCoroutine(AdjustVolume(isAlarmTurnedOn));
+        _animator.SetBool(IsOn, isAlarmTurnedOn);
+
+        if (isAlarmTurnedOn)
+            _audioSource.Play();
     }
 
-    private IEnumerator TurnOn()
+    private IEnumerator AdjustVolume(bool isAlarmTurnedOn)
     {
-        _audioSource.Play();
-        _animator.SetBool(IsOn, true);
-
-        while (_audioSource.volume < _maxVolume && _isRobberingInProgress)
+        float targetVolume = isAlarmTurnedOn ? _maxVolume : _minVolume;
+        
+        while (_audioSource.volume != targetVolume)
         {
-            _audioSource.volume = Mathf.MoveTowards(_audioSource.volume, _maxVolume, _volumeIncreaseSpeed * Time.deltaTime);
-            yield return null;
-        }
-    }
-
-    private IEnumerator TurnOff()
-    {
-        while (_audioSource.volume > _minVolume && _isRobberingInProgress == false)
-        {
-            _audioSource.volume = Mathf.MoveTowards(_audioSource.volume, _minVolume, _volumeDecreaseSpeed * Time.deltaTime);
+            float volumeChangeSpeed = _volumeChangeSpeed * Time.deltaTime;
+            _audioSource.volume = Mathf.MoveTowards(_audioSource.volume, targetVolume, volumeChangeSpeed);
             yield return null;
         }
 
-        _audioSource.Stop();
-        _animator.SetBool(IsOn, false);
+        if (isAlarmTurnedOn == false)
+            _audioSource.Stop();
     }
 }
