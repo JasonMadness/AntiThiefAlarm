@@ -150,8 +150,8 @@ Transform:
   m_GameObject: {fileID: 164874306}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.782, y: -2.28, z: 0}
-  m_LocalScale: {x: 0.5775339, y: 0.5775339, z: 0.5775339}
+  m_LocalPosition: {x: -1.39, y: -2.28, z: 0}
+  m_LocalScale: {x: 0.91683507, y: 0.5775339, z: 0.5775339}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 652036296}
@@ -168,7 +168,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80869ba2063bbc64d992e7c566051320, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _alarm: {fileID: 1258294718}
 --- !u!61 &164874309
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -212,7 +211,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.34, y: 1}
+  m_Size: {x: 4.84, y: 1}
   m_EdgeRadius: 0
 --- !u!1 &519420028
 GameObject:
@@ -316,6 +315,7 @@ GameObject:
   m_Component:
   - component: {fileID: 652036296}
   - component: {fileID: 652036295}
+  - component: {fileID: 652036297}
   m_Layer: 0
   m_Name: House
   m_TagString: Untagged
@@ -393,6 +393,20 @@ Transform:
   - {fileID: 1258294714}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &652036297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652036294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6443663932c2cc43bcf33df6b79d668, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _door: {fileID: 164874308}
+  _alarm: {fileID: 1258294718}
 --- !u!1 &1164881379
 GameObject:
   m_ObjectHideFlags: 0
@@ -755,7 +769,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 8bc8c264675794840b53deec8a0b4b29, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0
+  m_Volume: 1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -903,8 +917,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a5f52302645ebc4ab1e1ec0bfae9961, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _volumeIncreaseSpeed: 0.2
-  _volumeDecreaseSpeed: 0.5
+  _volumeChangeSpeed: 0.5
 --- !u!1 &1839307507
 GameObject:
   m_ObjectHideFlags: 0
