@@ -46,7 +46,7 @@ public class Alarm : MonoBehaviour
 
     private IEnumerator TurnOff()
     {
-        while (_audioSource.volume > _minVolume && !_isRobberingInProgress)
+        while (_audioSource.volume > _minVolume && _isRobberingInProgress == false)
         {
             _audioSource.volume = Mathf.MoveTowards(_audioSource.volume, _minVolume, _volumeDecreaseSpeed * Time.deltaTime);
             yield return null;
