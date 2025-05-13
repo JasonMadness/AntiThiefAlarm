@@ -1,11 +1,12 @@
 using UnityEngine;
+using UnityEngine.Serialization;
 
 [RequireComponent(typeof(SpriteRenderer))]
 public class Thief : MonoBehaviour
 {
     [SerializeField] private Chest _chest;
     [SerializeField] private Transform _exit;
-    [SerializeField] private float _runSpeed;
+    [SerializeField] private float _speed;
 
     private SpriteRenderer _spriteRenderer;
     private Transform _target;
@@ -22,7 +23,7 @@ public class Thief : MonoBehaviour
 
     private void Update()
     {
-        float targetPositionX = Mathf.MoveTowards(transform.position.x, _target.position.x, _runSpeed * Time.deltaTime);
+        float targetPositionX = Mathf.MoveTowards(transform.position.x, _target.position.x, _speed * Time.deltaTime);
         Vector2 newPosition = new Vector2(targetPositionX, transform.position.y);
         transform.position = newPosition;
 
