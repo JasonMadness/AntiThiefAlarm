@@ -2,19 +2,19 @@ using UnityEngine;
 
 public class AlarmSystem : MonoBehaviour
 {
-    [SerializeField] private Door _door;
+    [SerializeField] private ThiefDetector thiefDetector;
     [SerializeField] private Alarm _alarm;
 
     private void OnEnable()
     {
-        _door.ThiefEntered += OnThiefEntered;
-        _door.ThiefExited += OnThiefExited;
+        thiefDetector.ThiefEntered += OnThiefEntered;
+        thiefDetector.ThiefExited += OnThiefExited;
     }
 
     private void OnDisable()
     {
-        _door.ThiefEntered -= OnThiefEntered;
-        _door.ThiefExited -= OnThiefExited;
+        thiefDetector.ThiefEntered -= OnThiefEntered;
+        thiefDetector.ThiefExited -= OnThiefExited;
     }
 
     private void OnThiefEntered()

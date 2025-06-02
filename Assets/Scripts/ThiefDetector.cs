@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-public class Door : MonoBehaviour
+public class ThiefDetector : MonoBehaviour
 {
     public event Action ThiefEntered;
     public event Action ThiefExited;
