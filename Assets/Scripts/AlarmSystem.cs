@@ -19,11 +19,11 @@ public class AlarmSystem : MonoBehaviour
 
     private void OnThiefEntered()
     {
-        _alarm.SetAlarm(true);
+        _alarm.TurnOn();
     }
 
     private void OnThiefExited()
     {
-        _alarm.SetAlarm(false);
+        _alarm.TurnOff();
     }
 }

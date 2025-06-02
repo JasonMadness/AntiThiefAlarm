@@ -8,11 +8,13 @@ public class Door : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        ThiefEntered?.Invoke();
+        if (collision.TryGetComponent(typeof(Thief), out _))
+            ThiefEntered?.Invoke();
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        ThiefExited?.Invoke();
+        if (collision.TryGetComponent(typeof(Thief), out _))
+            ThiefExited?.Invoke();
     }
 }

@@ -13,6 +13,7 @@ public class Alarm : MonoBehaviour
     private Animator _animator;
     private float _maxVolume = 1;
     private float _minVolume = 0;
+    private bool _isTurnedOn = false;
     private Coroutine _volumeCoroutine;
 
     private void Awake()
@@ -20,23 +21,34 @@ public class Alarm : MonoBehaviour
         _audioSource = GetComponent<AudioSource>();
         _animator = GetComponent<Animator>();
         _audioSource.volume = _minVolume;
+        _audioSource.Play();
     }
 
-    public void SetAlarm(bool isAlarmTurnedOn)
+    public void TurnOn()
+    {
+        StopCurrentCoroutine();
+        _isTurnedOn = true;
+        _volumeCoroutine = StartCoroutine(AdjustVolume());
+        _animator.SetBool(IsTurnedOn, _isTurnedOn);
+    }
+
+    public void TurnOff()
+    {
+        StopCurrentCoroutine();
+        _isTurnedOn = false;
+        _volumeCoroutine = StartCoroutine(AdjustVolume());
+        _animator.SetBool(IsTurnedOn, _isTurnedOn);
+    }
+
+    private void StopCurrentCoroutine()
     {
         if (_volumeCoroutine != null)
             StopCoroutine(_volumeCoroutine);
-
-        _volumeCoroutine = StartCoroutine(AdjustVolume(isAlarmTurnedOn));
-        _animator.SetBool(IsTurnedOn, isAlarmTurnedOn);
-
-        if (isAlarmTurnedOn)
-            _audioSource.Play();
     }
 
-    private IEnumerator AdjustVolume(bool isAlarmTurnedOn)
+    private IEnumerator AdjustVolume()
     {
-        float targetVolume = isAlarmTurnedOn ? _maxVolume : _minVolume;
+        float targetVolume = _isTurnedOn ? _maxVolume : _minVolume;
         
         while (_audioSource.volume != targetVolume)
         {
@@ -44,8 +56,5 @@ public class Alarm : MonoBehaviour
             _audioSource.volume = Mathf.MoveTowards(_audioSource.volume, targetVolume, volumeChangeSpeed);
             yield return null;
         }
-
-        if (isAlarmTurnedOn == false)
-            _audioSource.Stop();
     }
 }
