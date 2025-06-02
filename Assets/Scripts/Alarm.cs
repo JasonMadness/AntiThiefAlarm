@@ -26,24 +26,23 @@ public class Alarm : MonoBehaviour
 
     public void TurnOn()
     {
-        StopCurrentCoroutine();
         _isTurnedOn = true;
-        _volumeCoroutine = StartCoroutine(AdjustVolume());
-        _animator.SetBool(IsTurnedOn, _isTurnedOn);
+        UpdateAlarmState();
     }
 
     public void TurnOff()
     {
-        StopCurrentCoroutine();
         _isTurnedOn = false;
-        _volumeCoroutine = StartCoroutine(AdjustVolume());
-        _animator.SetBool(IsTurnedOn, _isTurnedOn);
+        UpdateAlarmState();
     }
-
-    private void StopCurrentCoroutine()
+    
+    private void UpdateAlarmState()
     {
         if (_volumeCoroutine != null)
             StopCoroutine(_volumeCoroutine);
+        
+        _volumeCoroutine = StartCoroutine(AdjustVolume());
+        _animator.SetBool(IsTurnedOn, _isTurnedOn);
     }
 
     private IEnumerator AdjustVolume()

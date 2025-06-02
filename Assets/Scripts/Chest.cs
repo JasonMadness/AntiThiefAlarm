@@ -7,7 +7,7 @@ public class Chest : MonoBehaviour
 
     private SpriteRenderer _spriteRenderer;
 
-    private void Start()
+    private void Awake()
     {
         _spriteRenderer = GetComponent<SpriteRenderer>();
     }
