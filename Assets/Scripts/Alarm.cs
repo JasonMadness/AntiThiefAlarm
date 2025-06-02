@@ -40,16 +40,16 @@ public class Alarm : MonoBehaviour
     {
         if (_volumeCoroutine != null)
             StopCoroutine(_volumeCoroutine);
-        
-        _volumeCoroutine = StartCoroutine(AdjustVolume());
+
+        float targetVolume = _isTurnedOn ? _maxVolume : _minVolume;
+            
+        _volumeCoroutine = StartCoroutine(AdjustVolume(targetVolume));
         _animator.SetBool(IsTurnedOn, _isTurnedOn);
     }
 
-    private IEnumerator AdjustVolume()
+    private IEnumerator AdjustVolume(float targetVolume)
     {
-        float targetVolume = _isTurnedOn ? _maxVolume : _minVolume;
-        
-        while (_audioSource.volume != targetVolume)
+        while (Mathf.Approximately(_audioSource.volume, targetVolume) == false)
         {
             float volumeChangeSpeed = _volumeChangeSpeed * Time.deltaTime;
             _audioSource.volume = Mathf.MoveTowards(_audioSource.volume, targetVolume, volumeChangeSpeed);
