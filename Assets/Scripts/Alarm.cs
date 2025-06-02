@@ -5,7 +5,7 @@ using System.Collections;
 [RequireComponent(typeof(Animator))]
 public class Alarm : MonoBehaviour
 {
-    private const string IsOn = "IsOn";
+    private const string IsTurnedOn = "IsTurnedOn";
     
     [SerializeField] private float _volumeChangeSpeed = 0.5f;
     
@@ -28,7 +28,7 @@ public class Alarm : MonoBehaviour
             StopCoroutine(_volumeCoroutine);
 
         _volumeCoroutine = StartCoroutine(AdjustVolume(isAlarmTurnedOn));
-        _animator.SetBool(IsOn, isAlarmTurnedOn);
+        _animator.SetBool(IsTurnedOn, isAlarmTurnedOn);
 
         if (isAlarmTurnedOn)
             _audioSource.Play();

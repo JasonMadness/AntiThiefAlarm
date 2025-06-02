@@ -24,8 +24,7 @@ public class Thief : MonoBehaviour
     private void Update()
     {
         float targetPositionX = Mathf.MoveTowards(transform.position.x, _target.position.x, _speed * Time.deltaTime);
-        Vector2 newPosition = new Vector2(targetPositionX, transform.position.y);
-        transform.position = newPosition;
+        transform.position = new Vector2(targetPositionX, transform.position.y);
 
         if (transform.position.x == _chest.transform.position.x)
         {
