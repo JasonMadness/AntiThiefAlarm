@@ -417,6 +417,7 @@ GameObject:
   - component: {fileID: 1164881381}
   - component: {fileID: 1164881380}
   - component: {fileID: 1164881382}
+  - component: {fileID: 1164881383}
   m_Layer: 0
   m_Name: Chest
   m_TagString: Untagged
@@ -504,6 +505,51 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _openedChest: {fileID: 21300000, guid: 6c09b962334760541bf3d631c746e303, type: 3}
+--- !u!61 &1164881383
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164881379}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.37, y: 1.37}
+    newSize: {x: 1.37, y: 1.37}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.37, y: 1.37}
+  m_EdgeRadius: 0
 --- !u!1 &1167928792
 GameObject:
   m_ObjectHideFlags: 0
@@ -625,9 +671,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7631bb7e84db06d4eaf7b4397597179f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _chest: {fileID: 1164881382}
+  _target: {fileID: 1164881381}
   _exit: {fileID: 1839307508}
   _speed: 2
+  _rotationAngle: 180
 --- !u!61 &1167928797
 BoxCollider2D:
   m_ObjectHideFlags: 0
