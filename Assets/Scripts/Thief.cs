@@ -3,15 +3,17 @@ using UnityEngine;
 [RequireComponent(typeof(SpriteRenderer))]
 public class Thief : MonoBehaviour
 {
-    [SerializeField] private Transform _target;
+    [SerializeField] private Transform _robberyTarget;
     [SerializeField] private Transform _exit;
     [SerializeField] private float _speed;
     [SerializeField] private float _flipRotationAngle = 180f;
-    
+
+    private Transform _target;
     private Quaternion _flippedRotation;
 
     private void Start()
     {
+        _target = _robberyTarget;
         _flippedRotation = Quaternion.Euler(transform.rotation.x, _flipRotationAngle, transform.rotation.z);
     }
 

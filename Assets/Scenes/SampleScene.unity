@@ -671,10 +671,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7631bb7e84db06d4eaf7b4397597179f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _target: {fileID: 1164881381}
+  _robberyTarget: {fileID: 1164881381}
   _exit: {fileID: 1839307508}
   _speed: 2
-  _rotationAngle: 180
+  _flipRotationAngle: 180
 --- !u!61 &1167928797
 BoxCollider2D:
   m_ObjectHideFlags: 0
